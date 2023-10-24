@@ -59,14 +59,28 @@
     list-style-type: none;
     overflow-x: hidden;
     white-space: nowrap;
-}
-
-.navigation__links {
     padding-left: 28px;
 }
 
+
 .range-menu li {
     padding: 15px 15px 15px 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.menu li:hover .icon {
+    display: block;
 }
 
 
