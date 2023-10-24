@@ -60,6 +60,7 @@
 .navigation__links {
     padding-left: 28px;
 }
+
 .range-menu li {
     padding: 15px 15px 15px 0;
 }
@@ -104,9 +105,14 @@ li {
 }
 
 .navigation__phone {
+    font-family: "TTLakes Bold",sans-serif;
+    font-size: 23px;
     margin-bottom: 40px;
 }
+
 .navigation__languages {
+    font-size: 12px;
+    gap: 10px;
     margin-bottom: 30px;
 }
 
